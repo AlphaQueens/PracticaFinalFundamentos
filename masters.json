@@ -40,7 +40,7 @@
     "precio": "6.090€ (Becas disponibles)"
   },
   { 
-    "centro": "UNIR, Universidad en Internet",
+    "centro": "UNIR Universidad en Internet",
     "logo": "https://www.unir.net/wp-content/uploads/2019/07/unir-LOGO.png",
     "correo": "mailto:info@unir.net",
     "telefono": "941 209 743",
@@ -50,7 +50,7 @@
     "precio": "A consultar"
   },
   { 
-    "centro": "UNED, Universidad Nacional de Educación a Distancia",
+    "centro": "UNED Universidad Nacional de Educación a Distancia",
     "logo": "https://www.unir.net/wp-content/uploads/2019/07/unir-LOGO.png",
     "correo": "mailto:infouned@adm.uned.es",
     "telefono": "913 989 025",
@@ -60,7 +60,7 @@
     "precio": "4.080€"
   },
   { 
-    "centro": "MSMK - Madrid School of Marketing",
+    "centro": "MSMK Madrid School of Marketing",
     "logo": "http://www.claraavilac.com/wp-content/uploads/2015/09/logo-msmk.jpg",
     "correo": "mailto:info@msmk.eu",
     "telefono": "917 816 962",
@@ -88,5 +88,65 @@
     "estudio": "Master en Business Intelligence y Big Data",
     "duracion": "10 meses de duración",
     "precio": "2000€ (Becas disponibles)"
+  },
+  { 
+    "centro": "Spain Business School",
+    "logo": "https://pbs.twimg.com/profile_images/937658184529055744/J0w16gCb.jpg",
+    "correo": "mailto:info@spainbs.com",
+    "telefono": "917 191 000",
+    "web": "https://www.spainbs.com/master-analitica-web-big-data",
+    "estudio": "Master en Analítica Web y Big Data",
+    "duracion": "1 año de duración",
+    "precio": "3.500€ (Becas disponibles)"
+  },
+  { 
+    "centro": "MBIT School Business Data Intelligence",
+    "logo": "https://static.wixstatic.com/media/6fe95b_b611761ff1c94e4cae552f85ff75fbb9.png/v1/fit/w_2500,h_1330,al_c/6fe95b_b611761ff1c94e4cae552f85ff75fbb9.png",
+    "correo": "mailto:info@mbitschool.com",
+    "telefono": "915 048 600",
+    "web": "https://www.mbitschool.com/master-big-data-cloud",
+    "estudio": "Master Executive en Big Data, Cloud y Analytics",
+    "duracion": "1 año de duración",
+    "precio": "A consultar"
+  },
+  { 
+    "centro": "Universidad de Navarra",
+    "logo": "https://centrorenzulli.es/renzulliwp/wp-content/uploads/2015/05/UNAV-LOGO-2.png",
+    "correo": "mailto:bigdata@unav.es",
+    "telefono": "914 514 341",
+    "web": "https://www.unav.edu/web/master-en-big-data-science",
+    "estudio": "Master Executive en Big Data Science (MEBDS)",
+    "duracion": "1 año de duración",
+    "precio": "A consultar"
+  },
+  { 
+    "centro": "BTS Barcelona Technology School",
+    "logo": "https://4d17d13o8yuu3wluzr4c2feo-wpengine.netdna-ssl.com/wp-content/uploads/2019/02/btslogo.png",
+    "correo": "mailto:info@barcelonatechnologyschool.com",
+    "telefono": "933 041 721",
+    "web": "https://barcelonatechnologyschool.com/master/master-in-big-data-solutions/",
+    "estudio": "Master en Big Data Solutions (MBDS)",
+    "duracion": "9 meses de duración",
+    "precio": "17.000€"
+  },
+  { 
+    "centro": "EAE Business School",
+    "logo": "https://www.vectorlogo.es/wp-content/uploads/2017/02/logo-vector-eae-business-school.jpg",
+    "correo": "mailto:info@eae.com",
+    "telefono": "900 494 805",
+    "web": "https://www.eae.es/full-time/master-big-data-and-analytics/presentacion",
+    "estudio": "Master en Big Data y Analytics",
+    "duracion": "1 año de duración",
+    "precio": "14.000€"
+  },
+  { 
+    "centro": "U-tad",
+    "logo": "https://pbs.twimg.com/profile_images/994861193964728320/AY3I-Ow0_400x400.jpg",
+    "correo": "mailto:info@u-tad.com",
+    "telefono": "900 373 379",
+    "web": "https://www.u-tad.com/estudios/master-en-data-science-big-data/",
+    "estudio": "Master en Data Science y Big Data",
+    "duracion": "2 años de duración",
+    "precio": "A consultar"
   }
 ]
