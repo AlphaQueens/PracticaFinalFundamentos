@@ -1,5 +1,5 @@
-body = document.getElementsByTagName("body")[0];
-div = document.createElement("div").className = "flex-container";
+var body = document.getElementsByTagName("body")[0];
+var div = document.createElement("div").className = "flex-container";
 body.appendChild(div);
-main_tbl = document.createElement("table").id("main_table");
+var main_tbl = document.createElement("table").id("main_table");
 div.appendChild(main_tbl);
