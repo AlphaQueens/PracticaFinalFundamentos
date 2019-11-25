@@ -1,4 +1,4 @@
-var body = document.getElementsByid('body');
+var body = document.getElementById('body');
 var div = document.createElement('div').className = "flex-container";
 var main_tbl = document.createElement('table').id = "main_table";
 console.log(body);
