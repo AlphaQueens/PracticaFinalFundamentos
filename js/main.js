@@ -8,6 +8,6 @@ table.id = "main_table";
 flex_container.appendChild(table);
 
 
-function pintar();
+function pintar() {};
 
-function ordenar(direccion, objeto_a_ordenar);
+function ordenar(direccion, objeto_a_ordenar) {};
