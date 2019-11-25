@@ -1,4 +1,4 @@
-let body = document.getElementById('body');
+let body = document.getElementsByTagName('body')[0];
 let flex_container = document.createElement("div");
 flex_container.className = "flex-container";
 flex_container.id = "main_div";
