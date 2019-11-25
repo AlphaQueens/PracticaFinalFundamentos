@@ -1,6 +1,8 @@
-var body = document.getElementById('body');
-var div = document.createElement('div').className = "flex-container";
-var main_tbl = document.createElement('table').id = "main_table";
-console.log(body);
-body.appendChild(div);
-div.appendChild(main_tbl);
+let body = document.getElementById('body');
+let flex_container = document.createElement("div");
+flex_container.className = "flex-container";
+flex_container.id = "main_div";
+body.appendChild(flex_container);
+let table = document.createElement("table");
+table.id = "main_table";
+flex_container.appendChild(table);
