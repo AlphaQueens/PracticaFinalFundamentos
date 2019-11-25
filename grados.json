@@ -1,5 +1,6 @@
 [
   { 
+<<<<<<< HEAD
     "centro": "Universitat Oberta de Catalunya",
     "logo": "https://www.uoc.edu/portal/system/modules/edu.uoc.presentations/resources/img/branding/logo-uoc-default.png",    "telefonoCentro": "934 817 272",
     "correo": "mailto:uocbarcelona@uoc.edu",
@@ -18,6 +19,26 @@
     "estudio": "Grado en Business Data Analytics",
     "duracion": "4 años de duración",
     "precio": "7150€"   
+=======
+    "nombreCentro": "Universitat Oberta de Catalunya",
+    "imagenCentro": "https://www.uoc.edu/portal/system/modules/edu.uoc.presentations/resources/img/branding/logo-uoc-default.png",    "telefonoCentro": "934 817 272",
+    "correoCentro": "mailto:uocbarcelona@uoc.edu",
+    "telefonoCentro": "934 817 272",
+    "webGrado": "https://estudios.uoc.edu/es/grados/data-science/presentacion",	
+    "nombreGrado": "Grado en Applied Data Science",
+    "duracionGrado": "4 aÃ±os de duraciÃ³n",
+    "precioGrado": "A consultar (Becas disponibles)"
+  },
+  {
+    "nombreCentro": "Universidad de MondragÃ³n",
+    "imagenCentro": "https://www.topformacion.es/images/center/1275/mondragon-unibertsitatea.png",
+    "correoCentro": "mailto:info@mondragon.edu",    
+    "telefonoCentro": "943 712 185",
+    "webGrado": "https://www.mondragon.edu/es/grado-business-data-analytics",
+    "nombreGrado": "Grado en Business Data Analytics",
+    "duracionGrado": "4 aÃ±os de duraciÃ³n",
+    "precioGrado": "7150â‚¬"   
+>>>>>>> 2d58404ab069c557d351c2529dc27d1a6baaf6d6
   },
   {
     "centro": "Universidad Carlos III de Madrid",
@@ -25,18 +46,32 @@
     "correo": "mailto:info@uc3m.edu",    
     "telefono": "916 246 000",
     "webGrado": "https://www.uc3m.es/ss/Satellite/Grado/es/Detalle/Estudio_C/1371241688824/1371212987094/Grado_en_Ciencia_e_Ingenieria_de_Datos",
+<<<<<<< HEAD
     "estudio": "Grado en ciencia e ingeniería de datos",
     "duracion": "4 años de duración",
     "precio": "A consultar (Becas disponibles)"   
+=======
+    "nombreGrado": "Grado en ciencia e ingenierÃ­a de datos",
+    "duracionGrado": "4 aÃ±os de duraciÃ³n",
+    "precioGrado": "A consultar (Becas disponibles)"   
+>>>>>>> 2d58404ab069c557d351c2529dc27d1a6baaf6d6
   },
   {
     "centro": "Universitat Pompeu Fabra Barcelona",
     "logo": "https://www.vectorlogo.es/wp-content/uploads/2014/12/logo-vector-universitat-pompeu-fabra.jpg",
     "correoCentro": "mailto:carreres.professionals@upf.edu",    
+<<<<<<< HEAD
     "telefono": "935 422 429",
     "web": "https://www.upf.edu/es/web/graus/grau-en-enginyeria-matematica-ciencia-de-dades",
     "estudio": "Grado en Ingeniería Matemática en Ciencia de Datos",
     "duracion": "4 años de duración",
     "precio": " 2.512,23€ (Becas disponibles)"   
+=======
+    "telefonoCentro": "935 422 429",
+    "webGrado": "https://www.upf.edu/es/web/graus/grau-en-enginyeria-matematica-ciencia-de-dades",
+    "nombreGrado": "Grado en IngenierÃ­a MatemÃ¡tica en Ciencia de Datos",
+    "duracionGrado": "4 aÃ±os de duraciÃ³n",
+    "precioGrado": "2.512,23â‚¬ (Becas disponibles)"   
+>>>>>>> 2d58404ab069c557d351c2529dc27d1a6baaf6d6
   }
 ]
