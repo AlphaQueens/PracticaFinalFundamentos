@@ -6,3 +6,8 @@ body.appendChild(flex_container);
 let table = document.createElement("table");
 table.id = "main_table";
 flex_container.appendChild(table);
+
+
+function pintar();
+
+function ordenar(direccion, objeto_a_ordenar);

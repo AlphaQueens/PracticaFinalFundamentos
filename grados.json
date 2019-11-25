@@ -1,12 +1,10 @@
-[
-  { 
+[{
     "nombreCentro": "Universitat Oberta de Catalunya",
     "imagenCentro": "https://www.uoc.edu/portal/system/modules/edu.uoc.presentations/resources/img/branding/logo-uoc-default.png",
     "webCentro": "https://www.uoc.edu/portal/es/index.html",
     "telefonoCentro": "934 817 272",
     "correoCentro": "mailto:uocbarcelona@uoc.edu",
     "nombreGrado": "Grado en Applied Data Science",
-    "duracionGrado": "4 años de duración",
+    "duracionGrado": "4 aÃ±os de duraciÃ³n",
     "precioGrado": "A consultar (Becas disponibles)"
-  }
-]
+}]

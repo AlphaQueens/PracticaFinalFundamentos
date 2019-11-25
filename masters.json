@@ -1,12 +1,10 @@
-[
-  { 
-    "nombreCentro": "Universidad autónoma de madrid",
+[{
+    "nombreCentro": "Universidad autÃ³noma de madrid",
     "imagenCentro": "https://michollo.com/wp-content/uploads/2019/09/uam-1-1024x547.png",
     "webCentro": "https://www.uam.es/UAM/Home.htm?language=es",
     "telefonoCentro": "91 497 39 31",
     "correoCentro": "mailto:secretaria.bigdata@uam.es",
     "nombreGrado": "Master en Big Data y Data Science",
-    "duracionGrado": "2 años de duración",
-    "precioGrado": "5000€ (3 Becas disponibles)"
-  }
-]
+    "duracionGrado": "2 aÃ±os de duraciÃ³n",
+    "precioGrado": "5000â‚¬ (3 Becas disponibles)"
+}]
