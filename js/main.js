@@ -1,0 +1,1 @@
+document.getElementsByTagName("body")[0].appendChild(document.createElement("div").className("flex-container").appendchild(document.createElement("table").id("main_table")));
