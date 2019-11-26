@@ -7,7 +7,7 @@
     "web": "https://www.uam.es/UAM/Home.htm?language=es",
     "estudio": "Master en Big Data y Data Science",
     "duracion": "2 años de duración",
-    "precio": "5000€ (3 Becas disponibles)"
+    "precio": "5.000€ (3 Becas disponibles)"
   },
   { 
     "centro": "Universidad Complutense de Madrid",
@@ -17,7 +17,7 @@
     "web": "https://www.masterbigdataucm.com/",
     "estudio": "Master en Big Data y Business Analytics",
     "duracion": "2 años de duración",
-    "precio": "6400€ - presencial | 4300€ - online (Becas disponibles)"
+    "precio": "6.400€ - presencial | 4300€ - online (Becas disponibles)"
   },
   { 
     "centro": "IMF Business School",
@@ -27,11 +27,11 @@
     "web": "https://www.imf-formacion.com/masters-profesionales/master-big-data-business-intelligence",
     "estudio": "Master en Big Data y Business Analytics",
     "duracion": "1 año de duración",
-    "precio": "A consultar (Becas disponibles)"
+    "precio": "17.000€ (Becas disponibles)"
   },
   { 
-    "centro": "Universdad Europea",
-    "logo": "http://www.alemanista.com/wp-content/uploads/2013/01/Logo-UNED-verde.jpg",
+    "centro": "Universdad Europea de Madrid",
+    "logo": "https://pbs.twimg.com/profile_images/864871794892820480/rRNFy8nM.jpg",
     "correo": "mailto:dpo@universidadeuropea.es",
     "telefono": "917 407 272",
     "web": "https://universidadeuropea.es/online/titulacion/master-big-data",
@@ -51,7 +51,7 @@
   },
   { 
     "centro": "UNED Universidad Nacional de Educación a Distancia",
-    "logo": "https://www.unir.net/wp-content/uploads/2019/07/unir-LOGO.png",
+    "logo": "http://www.alemanista.com/wp-content/uploads/2013/01/Logo-UNED-verde.jpg",
     "correo": "mailto:infouned@adm.uned.es",
     "telefono": "913 989 025",
     "web": "https://www.masterbigdatauned.com/",
@@ -87,7 +87,7 @@
     "web": "https://www.inesem.es/Master-En-Big-Data",
     "estudio": "Master en Business Intelligence y Big Data",
     "duracion": "10 meses de duración",
-    "precio": "2000€ (Becas disponibles)"
+    "precio": "2.000€ (Becas disponibles)"
   },
   { 
     "centro": "Spain Business School",
