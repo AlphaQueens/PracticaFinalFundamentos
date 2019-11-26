@@ -1,4 +1,4 @@
-[
+masters = [
   { 
     "centro": "Universidad Autónoma de Madrid",
     "logo": "https://michollo.com/wp-content/uploads/2019/09/uam-1-1024x547.png",
@@ -149,4 +149,4 @@
     "duracion": "2 años de duración",
     "precio": "A consultar"
   }
-]
+];
