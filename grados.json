@@ -1,4 +1,4 @@
-[
+grados = [
   { 
     "centro": "Universitat Oberta de Catalunya",
     "logo": "https://www.uoc.edu/portal/system/modules/edu.uoc.presentations/resources/img/branding/logo-uoc-default.png",    "telefonoCentro": "934 817 272",
@@ -149,4 +149,4 @@
     "duracion": "4 años de duración",
     "precio": "2.400€ anuales"
   }
-]
+];
