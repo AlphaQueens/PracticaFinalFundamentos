@@ -1,5 +1,3 @@
-import { grados } from "grados.js";
-import { masters } from "masters.js";
 let body = document.getElementsByTagName('body')[0];
 let flex_container = document.createElement("div");
 flex_container.className = "flex-container";
