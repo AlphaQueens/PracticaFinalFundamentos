@@ -4,7 +4,7 @@ Repositorio para la práctica final de la asignatura.
 
 ## Autores
 Claudia Aragones-Chaves Puche <br>
-Javier Camara Jabonero <br>
+<a href="https://github.com/Coroko">Javier Camara Jabonero</a><br>
 Guillermo Casas Rodriguez <br>
 <a href="https://github.com/AlphaQueens">Álvaro Reina Abascal</a><br>
 
