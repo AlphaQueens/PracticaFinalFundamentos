@@ -10,6 +10,8 @@ table.id = "main_table";
 flex_container.appendChild(table);
 
 function pintar() {
+    import { grados } from "grados.js";
+    import { masters } from "masters.js"
     var thead = document.createElement("thead");
     table.appendChild();
     var keys = Object.keys(grados).array.forEach(k => {
