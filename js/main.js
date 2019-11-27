@@ -60,8 +60,8 @@ function pintar_grados() {
 
     var correo = document.createElement('p');
     var a = document.createElement('a');
-    a.href = grados[i].correo;
-    a.innerHTML = "Aqui poner correo sin mailto";
+    a.href = "mailto:" + grados[i].correo;
+    a.innerHTML = grados[i].correo;
     correo.appendChild(a);
     contactoTd.appendChild(correo);
 
@@ -135,8 +135,8 @@ function pintar_masters() {
 
     var correo = document.createElement('p');
     var a = document.createElement('a');
-    a.href = masters[i].correo;
-    a.innerHTML = "Aqui poner correo sin mailto";
+    a.href = "mailto:" + masters[i].correo;
+    a.innerHTML =  masters[i].correo;
     correo.appendChild(a);
     contactoTd.appendChild(correo);
 
