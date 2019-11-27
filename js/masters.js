@@ -149,5 +149,3 @@ var masters = [{
         "precio": "A consultar"
     }
 ];
-
-module.exports = { masters: masters }

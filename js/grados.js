@@ -150,5 +150,3 @@ var grados = [{
         "precio": "2.400€ anuales"
     }
 ];
-
-module.export = { grados: grados }
