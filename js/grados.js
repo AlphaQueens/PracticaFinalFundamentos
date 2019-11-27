@@ -17,7 +17,7 @@ var grados = [
     "web": "https://www.mondragon.edu/es/grado-business-data-analytics",
     "estudio": "Grado en Business Data Analytics",
     "duracion": "4 años de duración",
-    "precio": "7150€ anuales"
+    "precio": "7.150€ anuales"
   },
   {
     "centro": "Universidad Carlos III de Madrid",
@@ -87,7 +87,7 @@ var grados = [
     "web": "https://www.upc.edu/es/grados/ciencia-e-ingenieria-de-datos-barcelona-fib-etsetb-fme",
     "estudio": "Grado en Ciencia e Ingeniería de Datos",
     "duracion": "4 años de duración",
-    "precio": "2551€ anuales (Becas disponibles)"
+    "precio": "2.551€ anuales (Becas disponibles)"
   },
   {
     "centro": "Universitat Politècnica de Valencia",

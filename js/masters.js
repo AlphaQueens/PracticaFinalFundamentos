@@ -17,7 +17,7 @@ var masters = [
     "web": "https://www.masterbigdataucm.com/",
     "estudio": "Master en Big Data y Business Analytics",
     "duracion": "2 años de duración",
-    "precio": "6.400€ - presencial | 4300€ - online (Becas disponibles)"
+    "precio": "6.400€ - presencial | 4.300€ - online (Becas disponibles)"
   },
   {
     "centro": "IMF Business School",
