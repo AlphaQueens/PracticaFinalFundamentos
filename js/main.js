@@ -14,4 +14,7 @@ function pintar() {
 
 };
 
-function ordenar(direccion, objeto_a_ordenar) {};
+function ordenar(direccion, objeto_a_ordenar) {
+
+
+};
