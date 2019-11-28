@@ -20,31 +20,38 @@ function crear_tabla() {
 
 function pintar_headers() {
     let row_headers = document.createElement('tr');
-    table_grados.appendChild(row_headers);
 
     let headerCentro = document.createElement('th');
     let headerContacto = document.createElement('th');
     let headerEstudio = document.createElement('th');
     let headerDuracionPrecio = document.createElement('th');
 
+    headerContacto.scope = "col";
+    headerCentro.scope = "col";
+    headerEstudio.scope = "col";
+    headerDuracionPrecio.scope = "col";
+
     headerCentro.innerHTML = 'CENTRO';
     headerContacto.innerHTML = 'CONTACTO';
     headerEstudio.innerHTML = 'GRADO';
     headerDuracionPrecio.innerHTML = 'DURACIÓN Y PRECIO';
 
-    headerCentro.addEventListener()
+    //headerCentro.addEventListener()
 
     row_headers.appendChild(headerCentro);
     row_headers.appendChild(headerContacto);
     row_headers.appendChild(headerEstudio);
     row_headers.appendChild(headerDuracionPrecio);
+    return row_headers;
 }
 
 function pintar_grados() {
-    pintar_headers();
+    table_grados = document.getElementById("table_grados");
+    table_grados.appendChild(pintar_headers());
     for (let i = 0; i < grados.length; i++) {
         let row = document.createElement('tr');
         table_grados.appendChild(row);
+
 
         var centroTd = document.createElement('td');
         var contactoTd = document.createElement('td');
@@ -97,7 +104,8 @@ function pintar_grados() {
 };
 
 function pintar_masters() {
-    pintar_headers();
+    table_masters = document.getElementById("table_grados");
+    table_master.appendChild(pintar_headers());
     for (let i = 0; i < masters.length; i++) {
         let row = document.createElement('tr');
         table_masters.appendChild(row);
