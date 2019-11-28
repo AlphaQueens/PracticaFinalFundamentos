@@ -41,7 +41,7 @@ function pintar_headers() {
 }
 
 function pintar_grados() {
-
+    pintar_headers();
     for (let i = 0; i < grados.length; i++) {
         let row = document.createElement('tr');
         table_grados.appendChild(row);
@@ -97,6 +97,7 @@ function pintar_grados() {
 };
 
 function pintar_masters() {
+    pintar_headers();
     for (let i = 0; i < masters.length; i++) {
         let row = document.createElement('tr');
         table_masters.appendChild(row);
@@ -159,7 +160,5 @@ function ordenar() {
 
 
 crear_tabla();
-pintar_headers();
 pintar_grados();
-pintar_headers();
 pintar_masters();
