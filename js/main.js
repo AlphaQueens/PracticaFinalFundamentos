@@ -121,14 +121,14 @@ function ordenar(dir, selected_thing) {
     var tr = document.getElementsByTagName("tr");
 
     var thingis = [];
+    var data = [];
     switch (selected_thing) {
         case "CENTRO":
             for (var i = 0; i < tr.length - 1; i++) {
                 thingis.push(document.getElementById("centro" + i).children);
-                console.log(thingis[i][0]); //esto recoge el p de cada uno de los td del html
+                data.push(thingis[i][0]); //esto recoge el p de cada uno de los td del html
             }
-            break;
-        case "CONTACTO":
+            console.log(data[1].innerText);
 
             break;
         case "GRADO":
@@ -141,9 +141,6 @@ function ordenar(dir, selected_thing) {
             break;
     }
 }
-
-
-
 
 window.onscroll = function() { scrollfunction() };
 
