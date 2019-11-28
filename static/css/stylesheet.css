@@ -8,6 +8,7 @@
 
 #navbar {
     top: -50px;
+    transition: 0.3s;
 }
 
 .navbar a {
