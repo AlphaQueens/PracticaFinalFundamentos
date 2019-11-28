@@ -196,3 +196,4 @@ function initMap() {
 crear_tabla();
 pintar_grados();
 pintar_masters();
+initMap();
