@@ -5,11 +5,10 @@
     top: -50;
     transition: top 0.3s;
     width: 100%;
-    margin: 15px;
 }
 
 #table_grados {
-    margin-top: 80px;
+    margin-top: 55px;
 }
 
 .navbar a {
