@@ -174,12 +174,21 @@ function scrollfunction() {
         document.getElementById("navbar").style.top = "-50px";
     }
 }
-document.getElementById('info_div')[0].addEventListener("mouseenter", e => {
+document.getElementById('info_div').addEventListener("mouseenter", e => {
     document.getElementById("navbar").style.top = "0px";
     console.log("yosta es un perro");
 
 });
 document.getElementById('info_div').addEventListener("mouseleave", e => {
+    document.getElementById("navbar").style.top = "-50px";
+    console.log("yosta es un puto");
+});
+document.getElementById('navbar').addEventListener("mouseenter", e => {
+    document.getElementById("navbar").style.top = "0px";
+    console.log("yosta es un perro");
+
+});
+document.getElementById('navbar').addEventListener("mouseleave", e => {
     document.getElementById("navbar").style.top = "-50px";
     console.log("yosta es un puto");
 });
