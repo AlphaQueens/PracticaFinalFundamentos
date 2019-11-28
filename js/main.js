@@ -19,8 +19,6 @@ function crear_tabla() {
 function pintar_grados() {
     let row_headers = document.createElement('tr');
     table_grados.appendChild(row_headers);
-
-
     let headerCentro = document.createElement('th');
     let headerContacto = document.createElement('th');
     let headerEstudio = document.createElement('th');
