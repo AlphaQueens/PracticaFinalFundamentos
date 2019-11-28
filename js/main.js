@@ -174,9 +174,3 @@ function scrollfunction() {
         document.getElementById("navbar").style.top = "-50px";
     }
 }
-document.getElementsByTagName("h1")[0].addEventListener("mouseenter", function() {
-    document.getElementById("navbar").style.top = "0";
-});
-document.getElementsByTagName("h1")[0].addEventListener("mouseleave", function() {
-    document.getElementById("navbar").style.top = "-50";
-})
