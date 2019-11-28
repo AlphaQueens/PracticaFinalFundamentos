@@ -2,13 +2,9 @@
     overflow: hidden;
     background: lightskyblue;
     position: fixed;
-    top: -50;
+    top: -50px;
     transition: top 0.3s;
     width: 100%;
-}
-
-#table_grados {
-    margin-top: 55px;
 }
 
 .navbar a {
