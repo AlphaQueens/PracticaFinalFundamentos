@@ -2,9 +2,12 @@
     overflow: hidden;
     background: lightskyblue;
     position: fixed;
-    top: -50px;
-    transition: top 0.3s;
+    top: 50px;
     width: 100%;
+}
+
+#navbar {
+    top: -50px;
 }
 
 .navbar a {

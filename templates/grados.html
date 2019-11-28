@@ -25,5 +25,9 @@
 </body>
 <script src="../js/grados.js"></script>
     <script src="../js/masters.js"></script>
-    <script src="../js/main.js" async defer>crear_tabla();pintar_grados();</script>
+    <script src="../js/main.js" async defer>
+        crear_tabla();
+        pintar_grados();
+        window.onscroll = function() { scrollfunction() };
+    </script>
 </html>
