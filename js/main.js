@@ -32,10 +32,7 @@ function pintar_headers() {
     headerEstudio.innerHTML = 'GRADO';
     headerDuracionPrecio.innerHTML = 'DURACIÓN Y PRECIO';
 
-    headerDuracionPrecio.id = 'Precio';
-    headerEstudio.id = 'Estudio';
-    headerCentro.id = 'Centro';
-    headerContacto.id = 'Contacto';
+    headerCentro.addEventListener()
 
     row_headers.appendChild(headerCentro);
     row_headers.appendChild(headerContacto);
@@ -152,18 +149,13 @@ function pintar_masters() {
         row.appendChild(gradoTd);
         row.appendChild(duracionPrecioTd);
     }
-};
+}
 
-var header = getElementById
-addEventListener(typer, function ordenar(direccion, objeto_a_ordenar) {
-
+function ordenar() {
 
 
 
-
-
-
-});
+}
 
 
 crear_tabla();
