@@ -30,6 +30,9 @@
     <script src="../js/grados.js"></script>
     <script src="../js/masters.js"></script>
     <script src="../js/main.js" async defer></script>
+    <div class="flex_container" id="main_div">
+    </div>
+
     <div class="flex-container" id="info">
         <table>
             <tbody>
@@ -41,30 +44,9 @@
                 </tr>
             </tbody>
         </table>
-
     </div>
 
-    <script>
-        // Initialize and add the map
-        function initMap() {
-            // The location of Uluru
-            var u_tad = {
-                lat: 40.53,
-                lng: -3.89
-            };
-            // The map, centered at Uluru
-            var map = new google.maps.Map(
-                document.getElementById('map'), {
-                    zoom: 4,
-                    center: u_tad
-                });
-            // The marker, positioned at Uluru
-            var marker = new google.maps.Marker({
-                position: u_tad,
-                map: map
-            });
-        }
-    </script>
+
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmRB2NnN8uJjCXSmfJcS89vrDUVs5viOQ&callback=initMap">
     </script>
 </body>
