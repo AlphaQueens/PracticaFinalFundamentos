@@ -1,12 +1,27 @@
-a {
-    font-size: medium;
-    font-family: fantasy;
+.navbar {
+    overflow: hidden;
+    background: lightskyblue;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
-a:hover {
-    font-size: larger;
+#table_grados {
+    margin-top: 30px;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #366379;
     color: white;
-    background-color: black;
 }
 
 h1 {
@@ -64,8 +79,4 @@ a {
 
 a:hover {
     text-decoration: underline;
-}
-
-a:visited {
-    color: black;
 }
