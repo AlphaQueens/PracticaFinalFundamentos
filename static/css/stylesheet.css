@@ -2,7 +2,8 @@
     overflow: hidden;
     background: lightskyblue;
     position: fixed;
-    top: 0;
+    top: -50;
+    transition: top 0.3s;
     width: 100%;
 }
 
