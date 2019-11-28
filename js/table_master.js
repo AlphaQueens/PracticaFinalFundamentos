@@ -1,3 +1,3 @@
 crear_tabla();
-pintar_grados();
+pintar_masters();
 window.onscroll = function() { scrollfunction() };
