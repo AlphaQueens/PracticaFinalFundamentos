@@ -174,26 +174,7 @@ function ordenar(direccion, objeto_a_ordenar) {
 
 };
 
-function initMap() {
-    // The location of Uluru
-    var u_tad = {
-        lat: 40.53,
-        lng: -3.89
-    };
-    // The map, centered at Uluru
-    var map = new google.maps.Map(
-        document.getElementById('map'), {
-            zoom: 4,
-            center: u_tad
-        });
-    // The marker, positioned at Uluru
-    var marker = new google.maps.Marker({
-        position: u_tad,
-        map: map
-    });
-}
 
 crear_tabla();
 pintar_grados();
 pintar_masters();
-initMap();

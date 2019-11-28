@@ -27,9 +27,7 @@
         <a id="nav" href="">Lorem ipsum</a>&nbsp;/&nbsp;
         <a id="nav" href="">Lorem ipsum</a>
     </nav>
-    <script src="../js/grados.js"></script>
-    <script src="../js/masters.js"></script>
-    <script src="../js/main.js" async defer></script>
+
     <div class="flex_container" id="main_div">
     </div>
 
@@ -47,8 +45,22 @@
     </div>
 
 
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmRB2NnN8uJjCXSmfJcS89vrDUVs5viOQ&callback=initMap">
+    <script src="../js/grados.js"></script>
+    <script src="../js/masters.js"></script>
+    <script src="../js/main.js" async defer></script>
+       <script>
+// Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  var uluru = {lat: -25.344, lng: 131.036};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 4, center: uluru});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: uluru, map: map});
+}
     </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmRB2NnN8uJjCXSmfJcS89vrDUVs5viOQ&callback=initMap"></script>
 </body>
 
 </html>
