@@ -174,7 +174,3 @@ function scrollfunction() {
         document.getElementById("navbar").style.top = "-50px";
     }
 }
-
-crear_tabla();
-pintar_grados();
-pintar_masters();
