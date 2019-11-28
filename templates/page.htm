@@ -9,9 +9,10 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Master y grados</title>
+    <title>UNTITLED</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="../static/img/Logo.png" type="image/png">
     <link rel="stylesheet" href="../static/css/stylesheet.css">
 </head>
 
@@ -20,18 +21,56 @@
     <nav>
         <a id="nav" href="#grados">Grados</a>&nbsp;/&nbsp;
         <a id="nav" href="#masters">Masters</a>&nbsp;/&nbsp;
-        <a id="nav" href="">Lorem ipsum</a>&nbsp;/&nbsp;
-        <a id="nav" href="">Lorem ipsum</a>&nbsp;/&nbsp;
-        <a id="nav" href="">Lorem ipsum</a>&nbsp;/&nbsp;
+        <a id="nav" href="">About</a>&nbsp;/&nbsp;
+        <a id="nav" href="">Contactar</a>&nbsp;/&nbsp;
+        <a id="nav" href="">L</a>&nbsp;/&nbsp;
         <a id="nav" href="">Lorem ipsum</a>&nbsp;/&nbsp;
         <a id="nav" href="">Lorem ipsum</a>
     </nav>
 
-        <script src="../js/grados.js"></script>
-        <script src="../js/masters.js"></script>
-        <script src="../js/main.js" async defer></script>
 
 
+
+
+    <script src="../js/grados.js"></script>
+    <script src="../js/masters.js"></script>
+    <script src="../js/main.js" async defer></script>
+    <div class="flex-container" id="info">
+        <table>
+            <tbody>
+                <td>
+                    <div id="map">
+                    </div>
+                </td>
+            </tbody>
+        </table>
+
+    </div>
+
+    <script>
+        // Initialize and add the map
+        function initMap() {
+            // The location of Uluru
+            var u_tad = {
+                lat: 40.539113,
+                lng: -3.892659
+            };
+            // The map, centered at Uluru
+            var map = new google.maps.Map(
+                document.getElementById('map'), {
+                    zoom: 4,
+                    center: u_tad
+                });
+            // The marker, positioned at Uluru
+            var marker = new google.maps.Marker({
+                position: u_tad,
+                map: map
+            });
+        }
+    </script>
+
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmRB2NnN8uJjCXSmfJcS89vrDUVs5viOQ&callback=initMap">
+    </script>
 </body>
 
 </html>
