@@ -104,7 +104,7 @@ function pintar_grados() {
 };
 
 function pintar_masters() {
-    var table_masters = document.getElementById("table_grados");
+    var table_master = document.getElementById("table_grados");
     table_master.appendChild(pintar_headers());
     for (let i = 0; i < masters.length; i++) {
         let row = document.createElement('tr');
@@ -165,7 +165,15 @@ function ordenar() {
 
 
 }
+window.onscroll = function() { scrollfunction() };
 
+function scrollfunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("navbar").style.top = "0";
+    } else {
+        document.getElementById("navbar").style.top = "-50px";
+    }
+}
 
 crear_tabla();
 pintar_grados();
