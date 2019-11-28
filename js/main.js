@@ -2,7 +2,9 @@ let body = document.getElementsByTagName('body')[0];
 
 
 function crear_tabla() {
-    let flex_container = document.getElementById("main_div")
+    let flex_container = document.createElement("div");
+    flex_container.id = "main_div";
+    flex_container.clasName = "flex-container";
     body.appendChild(flex_container);
 
     let table_grados = document.createElement("table");
@@ -16,9 +18,10 @@ function crear_tabla() {
     flex_container.appendChild(table_masters);
 }
 
-function pintar_grados() {
+function pintar_headers() {
     let row_headers = document.createElement('tr');
     table_grados.appendChild(row_headers);
+
     let headerCentro = document.createElement('th');
     let headerContacto = document.createElement('th');
     let headerEstudio = document.createElement('th');
@@ -29,10 +32,18 @@ function pintar_grados() {
     headerEstudio.innerHTML = 'GRADO';
     headerDuracionPrecio.innerHTML = 'DURACIÓN Y PRECIO';
 
+    headerDuracionPrecio.id = 'Precio';
+    headerEstudio.id = 'Estudio';
+    headerCentro.id = 'Centro';
+    headerContacto.id = 'Contacto';
+
     row_headers.appendChild(headerCentro);
     row_headers.appendChild(headerContacto);
     row_headers.appendChild(headerEstudio);
     row_headers.appendChild(headerDuracionPrecio);
+}
+
+function pintar_grados() {
 
     for (let i = 0; i < grados.length; i++) {
         let row = document.createElement('tr');
@@ -89,25 +100,6 @@ function pintar_grados() {
 };
 
 function pintar_masters() {
-
-    let row_headers = document.createElement('tr');
-    table_masters.appendChild(row_headers);
-
-    let headerCentro = document.createElement('th');
-    let headerContacto = document.createElement('th');
-    let headerEstudio = document.createElement('th');
-    let headerDuracionPrecio = document.createElement('th');
-
-    headerCentro.innerHTML = 'CENTRO';
-    headerContacto.innerHTML = 'CONTACTO';
-    headerEstudio.innerHTML = 'GRADO';
-    headerDuracionPrecio.innerHTML = 'DURACIÓN Y PRECIO';
-
-    row_headers.appendChild(headerCentro);
-    row_headers.appendChild(headerContacto);
-    row_headers.appendChild(headerEstudio);
-    row_headers.appendChild(headerDuracionPrecio);
-
     for (let i = 0; i < masters.length; i++) {
         let row = document.createElement('tr');
         table_masters.appendChild(row);
@@ -162,7 +154,8 @@ function pintar_masters() {
     }
 };
 
-function ordenar(direccion, objeto_a_ordenar) {
+var header = getElementById
+addEventListener(typer, function ordenar(direccion, objeto_a_ordenar) {
 
 
 
@@ -170,9 +163,11 @@ function ordenar(direccion, objeto_a_ordenar) {
 
 
 
-};
+});
 
 
 crear_tabla();
+pintar_headers();
 pintar_grados();
+pintar_headers();
 pintar_masters();
