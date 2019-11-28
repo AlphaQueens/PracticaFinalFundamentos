@@ -174,12 +174,12 @@ function scrollfunction() {
         document.getElementById("navbar").style.top = "-50px";
     }
 }
-document.getElementById("h1")[0].addEventListener("mouseenter", e => {
+document.getElementById('info_div')[0].addEventListener("mouseenter", e => {
     document.getElementById("navbar").style.top = "0px";
     console.log("yosta es un perro");
 
 });
-document.getElementByID("h1").addEventListener("mouseleave", e => {
+document.getElementById('info_div').addEventListener("mouseleave", e => {
     document.getElementById("navbar").style.top = "-50px";
     console.log("yosta es un puto");
 });
