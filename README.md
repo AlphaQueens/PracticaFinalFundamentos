@@ -3,7 +3,7 @@
 Repositorio para la práctica final de la asignatura.
 
 ## Autores
-Claudia Aragones-Chaves Puche <br>
+<a href="https://github.com/claauu"> Claudia Aragones-Chaves Puche</a><br>
 <a href="https://github.com/Coroko">Javier Camara Jabonero</a><br>
 Guillermo Casas Rodriguez <br>
 <a href="https://github.com/AlphaQueens">Álvaro Reina Abascal</a><br>
