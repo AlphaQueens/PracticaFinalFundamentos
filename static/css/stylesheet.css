@@ -36,19 +36,23 @@ h1 {
 }
 
 th {
+    
     font-size: 18px;
+    color:white;
     font-family: 'Roboto Condensed', sans-serif;
-    background-color: #6DC7F3;
+    background-color: #2b2d2e;
 }
 
 td {
+    
     text-align: center;
-    background-color: #E6E6E6;
+    background-color: #cecfd6;
     font-family: 'Roboto Condensed', sans-serif;
     size: 100%;
 }
 
 table {
+    
     width: 100%;
     border-collapse: collapse;
     border: none;
@@ -97,7 +101,6 @@ a:hover {
     background-color: #858484; 
 }
 .container {
-    /*position: relative;*/
     width: 99%;
     position: fixed;
     margin-left: auto;
@@ -114,12 +117,13 @@ a:hover {
   }
 
 .texto{
+    font-family: 'Roboto Condensed', sans-serif;
     color: white;
-    font-size: 20px;
+    font-size: 50px;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 25%;
+    left: 25%;
+    transform: translate(-25%, -25%);
     
 }
 
@@ -129,7 +133,6 @@ img{
     display: block;
     margin:auto;
     background-size: cover;
-  /*width: 50%;*/
     
 }
 
@@ -155,9 +158,25 @@ ul {
     font-family: 'Roboto Condensed', sans-serif;
   }
   
-  /* Change the link color to #111 (black) on hover */
+  
   li a:hover {
     background-color: #111;
   }
 
+  .titulin{
+    font-family: 'Roboto Condensed', sans-serif; 
+    color: #ffffff; 
+    font-size: 48px; 
+    font-weight: 400; 
+    text-align: center; 
+    background: #889ccf; 
+    margin: 0 0 25px; 
+    overflow: hidden; 
+    padding: 20px; 
+    border-radius: 35px 0px 35px 0px; 
+    -moz-border-radius: 35px 0px 35px 0px; 
+    -webkit-border-radius: 35px 0px 35px 0px; 
+    border: 2px solid #5878ca;
 
+    
+    }

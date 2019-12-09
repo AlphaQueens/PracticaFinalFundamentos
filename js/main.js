@@ -132,6 +132,7 @@ function ordenar(dir, selected_thing) {
 
             break;
         case "GRADO":
+                
 
             break;
         case "DURACIÓN Y PRECIO":
