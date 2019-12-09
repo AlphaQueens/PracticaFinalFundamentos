@@ -11,28 +11,28 @@ headerDuracionPrecio.addEventListener("click", e => (ordenar(1, headerDuracionPr
 
 headerCentro.addEventListener("mouseenter", e => {
 
-    document.getElementById("centro").style.backgroundColor = "#2b2d2e";
+    document.getElementById("centro").style.backgroundColor = "#728cb2";
 });
 headerEstudio.addEventListener("mouseenter", e => {
 
-    document.getElementById("grado").style.backgroundColor = "#2b2d2e";
+    document.getElementById("grado").style.backgroundColor = "#728cb2";
 });
 headerDuracionPrecio.addEventListener("mouseenter", e => {
 
-    document.getElementById("precio").style.backgroundColor = "#2b2d2e";
+    document.getElementById("precio").style.backgroundColor = "#728cb2";
 });
 
 headerCentro.addEventListener("mouseleave", e => {
 
-    document.getElementById("centro").style.backgroundColor = "#728cb2";
+    document.getElementById("centro").style.backgroundColor = "#2b2d2e";
 });
 headerEstudio.addEventListener("mouseleave", e => {
 
-    document.getElementById("grado").style.backgroundColor = "#728cb2";
+    document.getElementById("grado").style.backgroundColor = "#2b2d2e";
 });
 headerDuracionPrecio.addEventListener("mouseleave", e => {
 
-    document.getElementById("precio").style.backgroundColor = "#728cb2";
+    document.getElementById("precio").style.backgroundColor = "#2b2d2e";
 });
 
 window.onscroll = function() { scrollfunction() };
