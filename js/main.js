@@ -28,7 +28,7 @@ function pintar_headers() {
 
     headerCentro.innerHTML = 'CENTRO';
     headerContacto.innerHTML = 'CONTACTO';
-    headerEstudio.innerHTML = 'GRADO';
+    headerEstudio.innerHTML = 'ESTUDIO';
     headerDuracionPrecio.innerHTML = 'DURACIÓN Y PRECIO';
 
     headerCentro.id = "centro";
