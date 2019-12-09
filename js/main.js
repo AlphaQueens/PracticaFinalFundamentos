@@ -122,22 +122,18 @@ function ordenar(dir, selected_thing) {
 
     var thingis = [];
     var data = [];
-    
+
     switch (selected_thing) {
         case "CENTRO":
-            for (var i = 0; i < tr.length - 1; i++) {
-                thingis.push(document.getElementById("centro" + i).children);
-                data.push(thingis[i][0]); //esto recoge el p de cada uno de los td del html
-            }
-            console.log(data[1].innerText);
+            sortTable2(table, 0);
 
             break;
         case "GRADO":
-                
+            sortTable2(table, 2);
 
             break;
         case "DURACIÓN Y PRECIO":
-
+            sortTable2(table, 3);
             break;
         default:
             break;
@@ -166,3 +162,40 @@ document.getElementById('navbar').addEventListener("mouseenter", e => {
 document.getElementById('navbar').addEventListener("mouseleave", e => {
     document.getElementById("navbar").style.top = "-50px";
 });
+
+
+function sortTable2(table, n) {
+    var rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+    switching = true;
+    dir = "asc";
+    while (switching) {
+        switching = false;
+        rows = table.rows;
+        for (i = 1; i < (rows.length - 1); i++) {
+            shouldSwitch = false;
+            x = rows[i].getElementsByTagName("TD")[n];
+            y = rows[i + 1].getElementsByTagName("TD")[n];
+            if (dir == "asc") {
+                if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+                    shouldSwitch = true;
+                    break;
+                }
+            } else if (dir == "desc") {
+                if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+                    shouldSwitch = true;
+                    break;
+                }
+            }
+        }
+        if (shouldSwitch) {
+            rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+            switching = true;
+            switchcount++;
+        } else {
+            if (switchcount == 0 && dir == "asc") {
+                dir = "desc";
+                switching = true;
+            }
+        }
+    }
+}
