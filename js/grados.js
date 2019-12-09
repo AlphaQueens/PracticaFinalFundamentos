@@ -32,7 +32,7 @@ var grados = [{
     {
         "centro": "Universitat Pompeu Fabra Barcelona",
         "logo": "http://www.brandemia.org/wp-content/uploads/2012/09/logo_principal_boxeo.jpg",
-        "correoCentro": "carreres.professionals@upf.edu",
+        "correo": "carreres.professionals@upf.edu",
         "telefono": "935 422 429",
         "web": "https://www.upf.edu/es/web/graus/grau-en-enginyeria-matematica-ciencia-de-dades",
         "estudio": "Grado en Ingeniería Matemática en Ciencia de Datos",
