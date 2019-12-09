@@ -7,7 +7,7 @@ var masters = [
     "web": "https://www.uam.es/UAM/Home.htm?language=es",
     "estudio": "Master en Big Data y Data Science",
     "duracion": "2 años de duración",
-    "precio": "5.000€ (3 Becas disponibles)"
+    "precio": "5000 (3 Becas disponibles)"
   },
   {
     "centro": "Universidad Complutense de Madrid",
@@ -17,7 +17,7 @@ var masters = [
     "web": "https://www.masterbigdataucm.com/",
     "estudio": "Master en Big Data y Business Analytics",
     "duracion": "2 años de duración",
-    "precio": "6.400€ - presencial | 4.300€ - online (Becas disponibles)"
+    "precio": "6400 - presencial"
   },
   {
     "centro": "IMF Business School",
@@ -27,7 +27,7 @@ var masters = [
     "web": "https://www.imf-formacion.com/masters-profesionales/master-big-data-business-intelligence",
     "estudio": "Master en Big Data y Business Analytics",
     "duracion": "1 año de duración",
-    "precio": "17.000€ (Becas disponibles)"
+    "precio": "17000 (Becas disponibles)"
   },
   {
     "centro": "Universdad Europea de Madrid",
@@ -37,7 +37,7 @@ var masters = [
     "web": "https://universidadeuropea.es/online/titulacion/master-big-data",
     "estudio": "Master Online en Big Data Analytics",
     "duracion": "10 meses de duración",
-    "precio": "6.090€ (Becas disponibles)"
+    "precio": "6090 (Becas disponibles)"
   },
   {
     "centro": "UNIR Universidad en Internet",
@@ -57,7 +57,7 @@ var masters = [
     "web": "https://www.masterbigdatauned.com/",
     "estudio": "Master en Big Data y Business Analytics",
     "duracion": "10 meses de duración",
-    "precio": "4.080€"
+    "precio": "4080"
   },
   {
     "centro": "MSMK Madrid School of Marketing",
@@ -87,7 +87,7 @@ var masters = [
     "web": "https://www.inesem.es/Master-En-Big-Data",
     "estudio": "Master en Business Intelligence y Big Data",
     "duracion": "10 meses de duración",
-    "precio": "2.000€ (Becas disponibles)"
+    "precio": "2000 (Becas disponibles)"
   },
   {
     "centro": "Spain Business School",
@@ -97,7 +97,7 @@ var masters = [
     "web": "https://www.spainbs.com/master-analitica-web-big-data",
     "estudio": "Master en Analítica Web y Big Data",
     "duracion": "1 año de duración",
-    "precio": "3.500€ (Becas disponibles)"
+    "precio": "3500 (Becas disponibles)"
   },
   {
     "centro": "MBIT School Business Data Intelligence",
@@ -127,7 +127,7 @@ var masters = [
     "web": "https://barcelonatechnologyschool.com/master/master-in-big-data-solutions/",
     "estudio": "Master en Big Data Solutions (MBDS)",
     "duracion": "9 meses de duración",
-    "precio": "17.000€"
+    "precio": "17000"
   },
   {
     "centro": "EAE Business School",
@@ -137,7 +137,7 @@ var masters = [
     "web": "https://www.eae.es/full-time/master-big-data-and-analytics/presentacion",
     "estudio": "Master en Big Data y Analytics",
     "duracion": "1 año de duración",
-    "precio": "14.000€"
+    "precio": "14000"
   },
   {
     "centro": "U-tad",
