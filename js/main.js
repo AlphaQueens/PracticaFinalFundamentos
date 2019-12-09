@@ -122,6 +122,7 @@ function ordenar(dir, selected_thing) {
 
     var thingis = [];
     var data = [];
+    
     switch (selected_thing) {
         case "CENTRO":
             for (var i = 0; i < tr.length - 1; i++) {
