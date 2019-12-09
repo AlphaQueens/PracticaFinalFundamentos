@@ -215,13 +215,13 @@ function sortNumbers(table, n) {
             x = rows[i].getElementsByTagName("TD")[n];
             y = rows[i + 1].getElementsByTagName("TD")[n];
             if (dir == "asc") {
-                console.log(x.nodeValue);
+                console.log(x.value);
                 if (Number(x.value) > Number(y.value)) {
                     shouldSwitch = true;
                     break;
                 }
             } else if (dir == "desc") {
-                console.log(x.value);
+                //console.log(x.value);
                 if (Number(x.value) < Number(y.value)) {
                     shouldSwitch = true;
                     break;
