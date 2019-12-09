@@ -74,6 +74,14 @@ function pintartd(table, obj, i) {
     img.setAttribute('src', obj[i].logo);
     img.setAttribute('width', 150);
     img.setAttribute('height', 150);
+    if ((obj[i].centro.substring(0, 11) == "Universidad" || obj[i].centro.substring(0, 11) == "Universitat") && (obj[i].centro.substring(12, 14) != "de") && (obj[i].centro != "Universidade da Coruña"))
+        centroTd.value = obj[i].centro.substring(11).trim();
+    else if (obj[i].centro.substring(12, 14) == "de")
+        centroTd.value = obj[i].centro.substring(14).trim();
+    else if (obj[i].centro == "Universidade da Coruña")
+        centroTd.value = "Coruña";
+    else
+        centroTd.value = obj[i].centro.trim();
     centroTd.appendChild(img);
 
     var correo = document.createElement('p');
@@ -101,7 +109,7 @@ function pintartd(table, obj, i) {
     duracionPrecioTd.appendChild(duracion);
 
     var precio = document.createElement('p');
-    precio.innerHTML = obj[i].precio;
+    precio.innerHTML = obj[i].precio + "€ Anuales";
     duracionPrecioTd.appendChild(precio);
     duracionPrecioTd.value = obj[i].precio;
 
@@ -120,17 +128,9 @@ function ordenar(dir, selected_thing) {
     console.log(selected_thing);
     var table = document.getElementById("table");
     var tr = document.getElementsByTagName("tr");
-
-    var thingis = [];
-    var data = [];
-
     switch (selected_thing) {
         case "CENTRO":
             sortTable2(table, 0);
-
-            break;
-        case "GRADO":
-            sortTable2(table, 2);
 
             break;
         case "DURACIÓN Y PRECIO":
@@ -177,12 +177,12 @@ function sortTable2(table, n) {
             x = rows[i].getElementsByTagName("TD")[n];
             y = rows[i + 1].getElementsByTagName("TD")[n];
             if (dir == "asc") {
-                if (x.innerHTML.toLowerCase() > y.innerHTML.toLowerCase()) {
+                if (x.value.toLowerCase() > y.value.toLowerCase()) {
                     shouldSwitch = true;
                     break;
                 }
             } else if (dir == "desc") {
-                if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+                if (x.value.toLowerCase() < y.value.toLowerCase()) {
                     shouldSwitch = true;
                     break;
                 }
@@ -215,13 +215,12 @@ function sortNumbers(table, n) {
             x = rows[i].getElementsByTagName("TD")[n];
             y = rows[i + 1].getElementsByTagName("TD")[n];
             if (dir == "asc") {
-                console.log(x.value);
+
                 if (Number(x.value) > Number(y.value)) {
                     shouldSwitch = true;
                     break;
                 }
             } else if (dir == "desc") {
-                //console.log(x.value);
                 if (Number(x.value) < Number(y.value)) {
                     shouldSwitch = true;
                     break;
