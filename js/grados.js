@@ -17,7 +17,7 @@ var grados = [
     "web": "https://www.mondragon.edu/es/grado-business-data-analytics",
     "estudio": "Grado en Business Data Analytics",
     "duracion": "4 años de duración",
-    "precio": "7.150€ anuales"
+    "precio": "7150 anuales"
   },
   {
     "centro": "Universidad Carlos III de Madrid",
@@ -27,7 +27,7 @@ var grados = [
     "web": "https://www.uc3m.es/ss/Satellite/Grado/es/Detalle/Estudio_C/1371241688824/1371212987094/Grado_en_Ciencia_e_Ingenieria_de_Datos",
     "estudio": "Grado en Ciencia e Ingeniería de Datos",
     "duracion": "4 años de duración",
-    "precio": "1.500€ anuales (Becas disponibles)"
+    "precio": "1500 anuales (Becas disponibles)"
   },
   {
     "centro": "Universitat Pompeu Fabra Barcelona",
@@ -37,7 +37,7 @@ var grados = [
     "web": "https://www.upf.edu/es/web/graus/grau-en-enginyeria-matematica-ciencia-de-dades",
     "estudio": "Grado en Ingeniería Matemática en Ciencia de Datos",
     "duracion": "4 años de duración",
-    "precio": "2.512,23€ anuales (Becas disponibles)"
+    "precio": "2512 anuales (Becas disponibles)"
   },
   {
     "centro": "U-tad",
@@ -47,7 +47,7 @@ var grados = [
     "web": "https://www.u-tad.com/estudios/grado-en-ingenieria-del-software/",
     "estudio": "Grado en Ingenieria de Software con Mención en Ingeniería de Datos",
     "duracion": "4 años de duración",
-    "precio": "10.000€ anuales (Becas disponibles)"
+    "precio": "10000 anuales (Becas disponibles)"
   },
   {
     "centro": "Universdad Europea de Madrid",
@@ -57,7 +57,7 @@ var grados = [
     "web": "https://universidadeuropea.es/madrid/titulacion/grado-ingenieria-matematica-analisis-datos",
     "estudio": "Grado en Ingeniería en Matemática aplicada al Análisis de Datos",
     "duracion": "4 años de duración",
-    "precio": "10.000€ anuales (Becas disponibles)"
+    "precio": "10000 anuales (Becas disponibles)"
   },
   {
     "centro": "IE Business School",
@@ -67,7 +67,7 @@ var grados = [
     "web": "https://www.ie.edu/es/universidad/estudios/oferta-academica/grado-en-datos-y-analitica-de-negocio/",
     "estudio": "Grado en Data y Business Analytics",
     "duracion": "4 años de duración",
-    "precio": "21.000€ anuales"
+    "precio": "21000 anuales"
   },
   {
     "centro": "Universidade da Coruña",
@@ -77,7 +77,7 @@ var grados = [
     "web": "https://estudos.udc.es/es/study/start/614g02v01",
     "estudio": "Grado en Ciencia e Ingeniería de Datos",
     "duracion": "4 años de duración",
-    "precio": "836€ anuales (Becas disponibles)"
+    "precio": "836 anuales (Becas disponibles)"
   },
   {
     "centro": "Universitat Politècnica de Catalunya",
@@ -87,7 +87,7 @@ var grados = [
     "web": "https://www.upc.edu/es/grados/ciencia-e-ingenieria-de-datos-barcelona-fib-etsetb-fme",
     "estudio": "Grado en Ciencia e Ingeniería de Datos",
     "duracion": "4 años de duración",
-    "precio": "2.551€ anuales (Becas disponibles)"
+    "precio": "2551 anuales (Becas disponibles)"
   },
   {
     "centro": "Universitat Politècnica de Valencia",
@@ -97,7 +97,7 @@ var grados = [
     "web": "https://www.upv.es/titulaciones/GCD/",
     "estudio": "Grado en Ciencia e Ingeniería de Datos",
     "duracion": "4 años de duración",
-    "precio": "1.200€ anuales (Becas disponibles)"
+    "precio": "1200 anuales (Becas disponibles)"
   },
   {
     "centro": "Universidad Pública de Navarra",
@@ -107,7 +107,7 @@ var grados = [
     "web": "https://www.unavarra.es/grados/nuevos-grados/ciencia-de-datos",
     "estudio": "Grado en Ciencia de Datos",
     "duracion": "4 años de duración",
-    "precio": "1.380€ anuales (Becas disponibles)"
+    "precio": "1380 anuales (Becas disponibles)"
   },
   {
     "centro": "Universdad Europea de Madrid",
@@ -117,7 +117,7 @@ var grados = [
     "web": "https://universidadeuropea.es/madrid/titulacion/grado-business-analytics",
     "estudio": "Grado en Business Analytics",
     "duracion": "4 años de duración",
-    "precio": "10.000€ anuales (Becas disponibles)"
+    "precio": "10000 anuales (Becas disponibles)"
   },
   {
     "centro": "Universidad de Deusto",
@@ -127,7 +127,7 @@ var grados = [
     "web": "https://www.deusto.es/cs/Satellite/deusto/es/nuevos-estudiantes-de-grado/estudios-grados/ciencia-de-datos-e-inteligencia-artificial/en-que-consiste-el-grado-2/info-prog?idSeccion=1",
     "estudio": "Grado en Ingeniería Informática + Ciencia de Datos e Inteligencia Artificial",
     "duracion": "4 años de duración",
-    "precio": "10.000€ anuales (Becas disponibles)"
+    "precio": "10000 anuales (Becas disponibles)"
   },
   {
     "centro": "Harbour Space University",
@@ -137,7 +137,7 @@ var grados = [
     "web": "https://www.bachelorstudies.com/Bachelor-of-Data-Science/Spain/Harbour-Space/",
     "estudio": "Grado en Data Science",
     "duracion": "3 años de duración",
-    "precio": "19.900€ anuales"
+    "precio": "19900 anuales"
   },
   {
     "centro": "Universitat Autònoma de Barcelona",
@@ -147,6 +147,6 @@ var grados = [
     "web": "https://www.uab.cat/web/estudiar/listado-de-grados/informacion-general/ingenieria-de-datos-1216708258897.html?param1=1345740029761",
     "estudio": "Grado en Ingenieria de Datos",
     "duracion": "4 años de duración",
-    "precio": "2.400€ anuales"
+    "precio": "2400 anuales"
   }
 ];

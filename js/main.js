@@ -103,6 +103,7 @@ function pintartd(table, obj, i) {
     var precio = document.createElement('p');
     precio.innerHTML = obj[i].precio;
     duracionPrecioTd.appendChild(precio);
+    duracionPrecioTd.value = obj[i].precio;
 
     centroTd.id = "centro" + i;
     contactoTd.id = "contacto" + i;
@@ -133,7 +134,7 @@ function ordenar(dir, selected_thing) {
 
             break;
         case "DURACIÓN Y PRECIO":
-            sortTable2(table, 3);
+            sortNumbers(table, 3);
             break;
         default:
             break;
@@ -182,6 +183,46 @@ function sortTable2(table, n) {
                 }
             } else if (dir == "desc") {
                 if (x.innerHTML.toLowerCase() < y.innerHTML.toLowerCase()) {
+                    shouldSwitch = true;
+                    break;
+                }
+            }
+        }
+        if (shouldSwitch) {
+            rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+            switching = true;
+            switchcount++;
+        } else {
+            if (switchcount == 0 && dir == "asc") {
+                dir = "desc";
+                switching = true;
+            }
+        }
+    }
+}
+
+
+
+function sortNumbers(table, n) {
+    var rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+    switching = true;
+    dir = "asc";
+    while (switching) {
+        switching = false;
+        rows = table.rows;
+        for (i = 1; i < (rows.length - 1); i++) {
+            shouldSwitch = false;
+            x = rows[i].getElementsByTagName("TD")[n];
+            y = rows[i + 1].getElementsByTagName("TD")[n];
+            if (dir == "asc") {
+                console.log(x.nodeValue);
+                if (Number(x.value) > Number(y.value)) {
+                    shouldSwitch = true;
+                    break;
+                }
+            } else if (dir == "desc") {
+                console.log(x.value);
+                if (Number(x.value) < Number(y.value)) {
                     shouldSwitch = true;
                     break;
                 }
