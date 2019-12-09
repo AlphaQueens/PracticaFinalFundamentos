@@ -7,7 +7,7 @@ var grados = [{
         "web": "https://estudios.uoc.edu/es/grados/data-science/presentacion",
         "estudio": "Grado en Applied Data Science",
         "duracion": "4 años de duración",
-        "precio": "A consultar"
+        "precio": "(A consultar)"
     },
     {
         "centro": "Universidad de Mondragón",

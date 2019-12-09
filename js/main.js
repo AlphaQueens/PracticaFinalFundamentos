@@ -1,5 +1,4 @@
-let body = document.getElementsByTagName('body')[0];
-
+var body = document.getElementsByTagName('body')[0];
 
 function crear_tabla() {
     let flex_container = document.createElement("div");
@@ -28,7 +27,7 @@ function pintar_headers() {
 
     headerCentro.innerHTML = 'CENTRO';
     headerContacto.innerHTML = 'CONTACTO';
-    headerEstudio.innerHTML = 'ESTUDIO';
+    headerEstudio.innerHTML = 'TITULACÍON';
     headerDuracionPrecio.innerHTML = 'DURACIÓN Y PRECIO';
 
     headerCentro.id = "centro";
@@ -111,7 +110,10 @@ function pintartd(table, obj, i) {
     var precio = document.createElement('p');
     precio.innerHTML = obj[i].precio + "€ Anuales";
     duracionPrecioTd.appendChild(precio);
-    duracionPrecioTd.value = obj[i].precio;
+    if (obj[i].precio != "(a consultar)")
+        duracionPrecioTd.value = obj[i].precio;
+    else
+        duracionPrecioTd.value = 0;
 
     centroTd.id = "centro" + i;
     contactoTd.id = "contacto" + i;
@@ -125,13 +127,11 @@ function pintartd(table, obj, i) {
 }
 
 function ordenar(dir, selected_thing) {
-    console.log(selected_thing);
     var table = document.getElementById("table");
     var tr = document.getElementsByTagName("tr");
     switch (selected_thing) {
         case "CENTRO":
-            sortTable2(table, 0);
-
+            sortTable(table, 0);
             break;
         case "DURACIÓN Y PRECIO":
             sortNumbers(table, 3);
@@ -152,7 +152,6 @@ function scrollfunction() {
 }
 document.getElementById('info_div').addEventListener("mouseenter", e => {
     document.getElementById("navbar").style.top = "0px";
-    console.log("xd");
 });
 document.getElementById('info_div').addEventListener("mouseleave", e => {
     document.getElementById("navbar").style.top = "-50px";
@@ -165,7 +164,7 @@ document.getElementById('navbar').addEventListener("mouseleave", e => {
 });
 
 
-function sortTable2(table, n) {
+function sortTable(table, n) {
     var rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
     switching = true;
     dir = "asc";
@@ -215,7 +214,6 @@ function sortNumbers(table, n) {
             x = rows[i].getElementsByTagName("TD")[n];
             y = rows[i + 1].getElementsByTagName("TD")[n];
             if (dir == "asc") {
-
                 if (Number(x.value) > Number(y.value)) {
                     shouldSwitch = true;
                     break;

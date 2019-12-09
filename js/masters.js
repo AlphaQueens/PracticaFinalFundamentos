@@ -46,7 +46,7 @@ var masters = [{
         "web": "https://www.unir.net/ingenieria/master-visual-analytics-big-data/549200001429/",
         "estudio": "Master en Visual Analytics y Big Data",
         "duracion": "12 meses de duración",
-        "precio": "A consultar"
+        "precio": "(a consultar)"
     },
     {
         "centro": "UNED Universidad Nacional de Educación a Distancia",
@@ -66,7 +66,7 @@ var masters = [{
         "web": "https://madridschoolofmarketing.es/masters-y-programas/master-executive-en-big-data-y-analytics",
         "estudio": "Master Executive en Big Data y Analytics",
         "duracion": "5 meses de duración",
-        "precio": "A consultar"
+        "precio": "(a consultar)"
     },
     {
         "centro": "n+3 business school",
@@ -76,7 +76,7 @@ var masters = [{
         "web": "https://negociosyestrategia.com/master/big-data-business-analytics/",
         "estudio": "Master en Big Data y Business Analytics",
         "duracion": "10 meses de duración",
-        "precio": "A consultar"
+        "precio": "(a consultar)"
     },
     {
         "centro": "INESEM Business school",
@@ -106,7 +106,7 @@ var masters = [{
         "web": "https://www.mbitschool.com/master-big-data-cloud",
         "estudio": "Master Executive en Big Data, Cloud y Analytics",
         "duracion": "12 meses de duración",
-        "precio": "A consultar"
+        "precio": "(a consultar)"
     },
     {
         "centro": "Universidad de Navarra",
@@ -116,7 +116,7 @@ var masters = [{
         "web": "https://www.unav.edu/web/master-en-big-data-science",
         "estudio": "Master Executive en Big Data Science (MEBDS)",
         "duracion": "12 meses de duración",
-        "precio": "A consultar"
+        "precio": "(a consultar)"
     },
     {
         "centro": "BTS Barcelona Technology School",
@@ -146,6 +146,6 @@ var masters = [{
         "web": "https://www.u-tad.com/estudios/master-en-data-science-big-data/",
         "estudio": "Master en Data Science y Big Data",
         "duracion": "24 meses de duración",
-        "precio": "A consultar"
+        "precio": "(a consultar)"
     }
 ];
