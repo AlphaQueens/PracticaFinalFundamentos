@@ -107,7 +107,7 @@ var grados = [{
         "web": "https://www.unavarra.es/grados/nuevos-grados/ciencia-de-datos",
         "estudio": "Grado en Ciencia de Datos",
         "duracion": "4 años de duración",
-        "precio": "1380 anuales (Becas disponibles)"
+        "precio": "1380"
     },
     {
         "centro": "Universidad Europea de Madrid",

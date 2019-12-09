@@ -29,7 +29,7 @@ var masters = [{
         "precio": "17000"
     },
     {
-        "centro": "Universdad Europea de Madrid",
+        "centro": "Universidad Europea de Madrid",
         "logo": "https://pbs.twimg.com/profile_images/864871794892820480/rRNFy8nM.jpg",
         "correo": "dpo@universidadeuropea.es",
         "telefono": "917 407 272",
