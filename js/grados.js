@@ -11,7 +11,7 @@ var grados = [
   },
   {
     "centro": "Universidad de Mondragón",
-    "logo": "https://www.topformacion.es/images/center/1275/mondragon-unibertsitatea.png",
+    "logo": "https://www.vectorlogo.es/wp-content/uploads/2014/12/logo-vector-mondragon-unibertsitatea.jpg",
     "correo": "info@mondragon.edu",
     "telefono": "943 712 185",
     "web": "https://www.mondragon.edu/es/grado-business-data-analytics",
@@ -31,7 +31,7 @@ var grados = [
   },
   {
     "centro": "Universitat Pompeu Fabra Barcelona",
-    "logo": "https://www.vectorlogo.es/wp-content/uploads/2014/12/logo-vector-universitat-pompeu-fabra.jpg",
+    "logo": "http://www.brandemia.org/wp-content/uploads/2012/09/logo_principal_boxeo.jpg",
     "correoCentro": "carreres.professionals@upf.edu",
     "telefono": "935 422 429",
     "web": "https://www.upf.edu/es/web/graus/grau-en-enginyeria-matematica-ciencia-de-dades",
@@ -81,7 +81,7 @@ var grados = [
   },
   {
     "centro": "Universitat Politècnica de Catalunya",
-    "logo": "https://www.vectorlogo.es/wp-content/uploads/2014/12/logo-vector-universitat-politecnica-catalunya.jpg",
+    "logo": "http://www.filatsgonfaus.com/wp-content/uploads/2015/03/logo-upc-barcelonatech.jpg",
     "correo": "informacio-upc@upc.es",
     "telefono": "934 017 396",
     "web": "https://www.upc.edu/es/grados/ciencia-e-ingenieria-de-datos-barcelona-fib-etsetb-fme",
@@ -101,7 +101,7 @@ var grados = [
   },
   {
     "centro": "Universidad Pública de Navarra",
-    "logo": "https://s3.eu-central-1.amazonaws.com/images.jacksonlive.es/upload/spots/high/1506944166.jpg",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/5/51/UNAV.svg",
     "correo": "oficina.informacion@unavarra.es",
     "telefono": "948 169 096",
     "web": "https://www.unavarra.es/grados/nuevos-grados/ciencia-de-datos",

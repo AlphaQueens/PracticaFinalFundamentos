@@ -1,7 +1,7 @@
 var masters = [
   {
     "centro": "Universidad Autónoma de Madrid",
-    "logo": "https://michollo.com/wp-content/uploads/2019/09/uam-1-1024x547.png",
+    "logo": "http://www.sexpol.net/wp-content/uploads/2019/06/colab-Logo-UAM.jpg",
     "correo": "secretaria.bigdata@uam.es",
     "telefono": "914 973 931",
     "web": "https://www.uam.es/UAM/Home.htm?language=es",
@@ -41,7 +41,7 @@ var masters = [
   },
   {
     "centro": "UNIR Universidad en Internet",
-    "logo": "https://www.unir.net/wp-content/uploads/2019/07/unir-LOGO.png",
+    "logo": "https://upload.wikimedia.org/wikipedia/commons/2/2b/UNIR_-_Business_School.jpg",
     "correo": "info@unir.net",
     "telefono": "941 209 743",
     "web": "https://www.unir.net/ingenieria/master-visual-analytics-big-data/549200001429/",
@@ -71,7 +71,7 @@ var masters = [
   },
   {
     "centro": "n+3 business school",
-    "logo": "https://www.emagister.com/es/albums/1/1/2/3/0/xl_cropped_312651ef22b3564a5e325fe715de9e77.jpg",
+    "logo": "https://pbs.twimg.com/profile_images/917709919381544960/A6YSmVSX_400x400.jpg",
     "correo": "info@negociosyestrategia.com",
     "telefono": "911 117 619",
     "web": "https://negociosyestrategia.com/master/big-data-business-analytics/",
@@ -101,7 +101,7 @@ var masters = [
   },
   {
     "centro": "MBIT School Business Data Intelligence",
-    "logo": "https://static.wixstatic.com/media/6fe95b_b611761ff1c94e4cae552f85ff75fbb9.png/v1/fit/w_2500,h_1330,al_c/6fe95b_b611761ff1c94e4cae552f85ff75fbb9.png",
+    "logo": "https://static.wixstatic.com/media/1b0eeb_b080dbc3e6fb491b8373295c8a6eb32e~mv2.jpg/v1/fill/w_848,h_601,al_c/1b0eeb_b080dbc3e6fb491b8373295c8a6eb32e~mv2.jpg",
     "correo": "info@mbitschool.com",
     "telefono": "915 048 600",
     "web": "https://www.mbitschool.com/master-big-data-cloud",
@@ -121,7 +121,7 @@ var masters = [
   },
   {
     "centro": "BTS Barcelona Technology School",
-    "logo": "https://4d17d13o8yuu3wluzr4c2feo-wpengine.netdna-ssl.com/wp-content/uploads/2019/02/btslogo.png",
+    "logo": "https://4d17d13o8yuu3wluzr4c2feo-wpengine.netdna-ssl.com/wp-content/uploads/2019/02/logo200-2.png",
     "correo": "info@barcelonatechnologyschool.com",
     "telefono": "933 041 721",
     "web": "https://barcelonatechnologyschool.com/master/master-in-big-data-solutions/",
@@ -131,7 +131,7 @@ var masters = [
   },
   {
     "centro": "EAE Business School",
-    "logo": "https://www.vectorlogo.es/wp-content/uploads/2017/02/logo-vector-eae-business-school.jpg",
+    "logo": "https://pbs.twimg.com/profile_images/1083739182747529216/X5TagjKt_400x400.jpg",
     "correo": "info@eae.com",
     "telefono": "900 494 805",
     "web": "https://www.eae.es/full-time/master-big-data-and-analytics/presentacion",
