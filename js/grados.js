@@ -1,4 +1,5 @@
 var grados = [{
+        "flask_name": "uoc",
         "centro": "Universitat Oberta de Catalunya",
         "logo": "https://www.uoc.edu/portal/system/modules/edu.uoc.presentations/resources/img/branding/logo-uoc-default.png",
         "telefonoCentro": "934 817 272",
@@ -10,6 +11,7 @@ var grados = [{
         "precio": "(A consultar)"
     },
     {
+        "flask_name": "mond",
         "centro": "Universidad de Mondragón",
         "logo": "https://www.vectorlogo.es/wp-content/uploads/2014/12/logo-vector-mondragon-unibertsitatea.jpg",
         "correo": "info@mondragon.edu",
@@ -20,6 +22,7 @@ var grados = [{
         "precio": "7150"
     },
     {
+        "flask_name": "uc3m",
         "centro": "Universidad Carlos III de Madrid",
         "logo": "https://asociacionorientacionyeducacionmadrid465129805.files.wordpress.com/2019/03/uc3m.png",
         "correo": "info@uc3m.edu",
@@ -30,6 +33,7 @@ var grados = [{
         "precio": "1500"
     },
     {
+        "flask_name": "upf",
         "centro": "Universitat Pompeu Fabra Barcelona",
         "logo": "http://www.brandemia.org/wp-content/uploads/2012/09/logo_principal_boxeo.jpg",
         "correo": "carreres.professionals@upf.edu",
@@ -40,6 +44,7 @@ var grados = [{
         "precio": "2512"
     },
     {
+        "flask_name": "utadg",
         "centro": "U-tad",
         "logo": "https://pbs.twimg.com/profile_images/994861193964728320/AY3I-Ow0_400x400.jpg",
         "correo": "info@u-tad.com",
@@ -50,6 +55,7 @@ var grados = [{
         "precio": "10000"
     },
     {
+        "flask_name": "uemg1",
         "centro": "Universidad Europea de Madrid",
         "logo": "https://pbs.twimg.com/profile_images/864871794892820480/rRNFy8nM.jpg",
         "correo": "dpo@universidadeuropea.es",
@@ -60,6 +66,7 @@ var grados = [{
         "precio": "10000"
     },
     {
+        "flask_name": "ie",
         "centro": "IE Business School",
         "logo": "https://pbs.twimg.com/profile_images/879608189968363520/XWrPNX46_400x400.jpg",
         "correo": "ieuadmissions@ie.edu",
@@ -70,6 +77,7 @@ var grados = [{
         "precio": "21000"
     },
     {
+        "flask_name": "udc",
         "centro": "Universidade da Coruña",
         "logo": "http://masdearte.com/media/prop_ayudantes_coru%C3%B1a.jpg",
         "correo": "info@udc.gal",
@@ -80,6 +88,7 @@ var grados = [{
         "precio": "836"
     },
     {
+        "flask_name": "upc",
         "centro": "Universitat Politècnica de Catalunya",
         "logo": "http://www.filatsgonfaus.com/wp-content/uploads/2015/03/logo-upc-barcelonatech.jpg",
         "correo": "informacio-upc@upc.es",
@@ -90,6 +99,7 @@ var grados = [{
         "precio": "2551"
     },
     {
+        "flask_name": "upv",
         "centro": "Universitat Politècnica de Valencia",
         "logo": "https://www.upv.es/perfiles/pas-pdi/imagenes/marca_UPV_secundaria_color300.jpg",
         "correo": "etsinf@upvnet.upv.es",
@@ -100,6 +110,7 @@ var grados = [{
         "precio": "1200"
     },
     {
+        "flask_name": "unavg",
         "centro": "Universidad Pública de Navarra",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/5/51/UNAV.svg",
         "correo": "oficina.informacion@unavarra.es",
@@ -110,6 +121,7 @@ var grados = [{
         "precio": "1380"
     },
     {
+        "flask_name": "uemg2",
         "centro": "Universidad Europea de Madrid",
         "logo": "https://pbs.twimg.com/profile_images/864871794892820480/rRNFy8nM.jpg",
         "correo": "dpo@universidadeuropea.es",
@@ -120,6 +132,7 @@ var grados = [{
         "precio": "10000"
     },
     {
+        "flask_name": "deusto",
         "centro": "Universidad de Deusto",
         "logo": "https://www.aingoi.com/wp-content/uploads/2019/01/logo-vector-universidad-deusto.jpg",
         "correo": "web@deusto.es",
@@ -130,6 +143,7 @@ var grados = [{
         "precio": "10000"
     },
     {
+        "flask_name": "harbour",
         "centro": "Harbour Space University",
         "logo": "https://pbs.twimg.com/profile_images/758261981216382976/pMjVzJnH_400x400.jpg",
         "correo": "info@harbour.space",
@@ -140,6 +154,7 @@ var grados = [{
         "precio": "19900"
     },
     {
+        "flask_name": "uab",
         "centro": "Universitat Autònoma de Barcelona",
         "logo": "http://www.imprimelowcost.com/wp-content/uploads/2013/05/logo-uab.png-300x194.jpg",
         "correo": "informacio@uab.cat",
